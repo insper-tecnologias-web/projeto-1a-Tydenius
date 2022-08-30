@@ -1,0 +1,285 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*********************Barra Superior*********************/
+.appbar{
+  position: relative;
+  background-color: #f7d736;
+  height: fit-content;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+  font-family: inherit;
+  font-size: large;
+}
+
+.logo{
+  position: relative;
+  left: .5%;
+  width: 6%;
+}
+
+.subtitle{
+  position: relative;
+  bottom: 1.5rem;
+  margin: 1%;
+}
+/*********************Form*********************/
+.form-card{
+  width: 40%;
+  left:30%;
+  position: relative;
+  box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.2);
+
+  font-family: inherit;
+}
+.form-card-title{
+  position: relative;
+  width:96%;
+  display: block;
+  top:10px;
+  margin:2%;
+  color: inherit;
+
+  font-family: inherit;
+  font-size: x-large;
+  font-weight: 200;
+
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.autoresize{
+  position: relative;
+  width:96%;
+  display: block;
+
+  margin: 2%;
+  color: inherit;
+
+  font-family: inherit;
+  font-size: medium;
+  font-weight: 200;
+
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  bottom: 5px;
+  width: 96%;
+  padding: 1%;
+  margin:2%;
+  overflow: hidden;
+
+  font-family: inherit;
+  font-weight: bold;
+  font-size: medium;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  background-color: #f7d736;
+
+  transition: background-color 0.3s;
+}
+
+
+.btn:before {
+  content: "";
+
+  position: relative;
+  top: 100%;
+  left: 50%;
+
+  display: block;
+  width: 0;
+  padding-top: 0;
+
+  border-radius: 50%;
+
+  background-color: rgba(236, 240, 241, 0.3);
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+  width: 120%;
+  padding-top: 5%;
+
+  transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+}
+/*********************Cards*********************/
+.card-container{
+  width: 90%;
+  size: 800px;
+  margin-top:80px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px auto;
+  text-decoration:none;
+  display:block;
+  height:10em;
+  width:15em;
+  padding:1em;
+
+  background-color:#f7d736;
+
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.card-title {
+  position: relative;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+  font-style: oblique;
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  margin-bottom: .5px;
+
+  background-color: inherit;
+
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.card-title-input{
+  position: relative;
+  font-weight:bolder;
+  font-family: 'Permanent Marker', cursive;
+  font-style: oblique;
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  margin-bottom: 1px;
+
+  background-color: inherit;
+
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.card-content {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: 'Permanent Marker', cursive;
+    font-style: oblique;
+    margin-bottom: 10px;
+    width: 100%;
+
+    resize: none;
+    scrollbar-base-color: inherit;
+    scrollbar-track-color: inherit;
+    background-color: inherit;
+    border: none;
+    
+}
+
+.card-btn-delete{
+  position:relative;
+  width: 15%;
+  overflow: visible;
+  display:contents;
+}
+.card-btn-att{
+  width: 20%;
+  overflow: hidden;
+  top: -15px;
+  display:contents;
+}
+.btn-img{
+  position:relative;
+
+  display:flexbox;
+  justify-content: center;
+
+  width: 10%;
+}
+
+/*********************Cores dos Post-its*********************/
+.card-color-1{
+  background-color: #ead3a7;
+  scrollbar-base-color: inherit;
+  scrollbar-track-color: inherit;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+  scrollbar-base-color: inherit;
+  scrollbar-track-color: inherit;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+  scrollbar-base-color: inherit;
+  scrollbar-track-color: inherit;
+}
+
+.card-color-4{
+  background-color: #fae890;
+  scrollbar-base-color: inherit;
+  scrollbar-track-color: inherit;
+}
+      
+.card-color-4{
+  background-color: #abe9c1;
+  scrollbar-base-color: inherit;
+  scrollbar-track-color: inherit;
+}
+/*********************Rotação dos Post-its*********************/
+.card-rotation-1{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-2{
+  transform: rotate(-4deg);
+}
+
+.card-rotation-3{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-2deg);
+}
+.card-rotation-5{
+  transform: rotate(-1deg);
+}
+
+.card-rotation-6{
+  transform: rotate(0eg);
+}
+
+.card-rotation-7{
+  transform: rotate(1deg);
+}
+
+.card-rotation-8{
+  transform: rotate(2deg);
+}
+
+.card-rotation-9{
+  transform: rotate(3deg);
+}
+
+.card-rotation-10{
+  transform: rotate(4deg);
+}
+
+.card-rotation-11{
+  transform: rotate(5deg);
+}
