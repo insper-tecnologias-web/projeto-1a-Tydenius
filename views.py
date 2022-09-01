@@ -9,7 +9,7 @@ def index(request):
             # Cabeçalho e corpo estão sempre separados por duas quebras de linha
             partes = request.split('\n\n')
             corpo = partes[1]
-            print("###########Este é o corpo da requisição##########\n" + corpo)
+            print("###########Este é o corpo da requisição########## \n\n" + corpo)
             params = {}
             dicId = "id"
             dicTit = "titulo"
@@ -24,7 +24,7 @@ def index(request):
             params[dicTit] = unquote_plus(dataTit[1])
             params[dicDesc] = unquote_plus(dataDet[1])
 
-            print("############Parâmetros do Update############## \n")
+            print("############Parâmetros do Update############## \n\n")
             print(params)
             updateDB(params)
             
@@ -36,7 +36,7 @@ def index(request):
             # Cabeçalho e corpo estão sempre separados por duas quebras de linha
             partes = request.split('\n\n')
             corpo = partes[1]
-            print("###########Este é o corpo da requisição##########\n" + corpo)
+            print("###########Este é o corpo da requisição########## \n\n" + corpo)
             params = {}
             dicTit = "titulo"
             dicDesc = "detalhes"
