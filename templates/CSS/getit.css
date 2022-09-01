@@ -29,6 +29,7 @@ body {
   left:30%;
   position: relative;
   box-shadow: 2px 3px 3px 3px rgba(0,0,0,0.3);
+  background-color: #f7d7363c;
 
   margin-top: 25px;
   border-radius: 15px;
@@ -57,6 +58,7 @@ body {
   top:10px;
   margin:2%;
   color: inherit;
+  background-color: rgba(147, 111, 111, 0);
 
   font-family: inherit;
   font-size: x-large;
@@ -74,6 +76,7 @@ body {
   margin:2%;
   margin-top: 4%;
   color: inherit;
+  background-color: rgba(147, 111, 111, 0);
 
   font-family: inherit;
   font-size: medium;
@@ -145,6 +148,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .card {
