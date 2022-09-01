@@ -28,10 +28,28 @@ body {
   width: 40%;
   left:30%;
   position: relative;
-  box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 2px 3px 3px 3px rgba(0,0,0,0.3);
 
+  margin-top: 25px;
+  border-radius: 15px;
   font-family: inherit;
 }
+.form-card-text{
+  position: relative;
+  width:96%;
+  display: block;
+  top:10px;
+  text-align: center;
+  color: inherit;
+
+  font-family: inherit;
+  font-size: x-large;
+  font-weight: 200;
+
+  border: none;
+  border-radius: 0.4rem;
+}
+
 .form-card-title{
   position: relative;
   width:96%;
@@ -53,7 +71,8 @@ body {
   width:96%;
   display: block;
 
-  margin: 2%;
+  margin:2%;
+  margin-top: 4%;
   color: inherit;
 
   font-family: inherit;
@@ -79,7 +98,7 @@ body {
 
   border-width: 0;
   outline: none;
-  border-radius: 2px;
+  border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 
   background-color: #f7d736;
@@ -113,14 +132,13 @@ body {
 .btn:active:before {
   width: 120%;
   padding-top: 5%;
-
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 }
 /*********************Cards*********************/
 .card-container{
   width: 90%;
   size: 800px;
-  margin-top:80px;
+  margin-top:20px;
   margin-left: 50px;
   margin-right: 50px;
 
